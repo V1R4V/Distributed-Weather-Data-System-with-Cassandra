@@ -1,0 +1,15 @@
+name: ${PROJECT}
+
+services:
+    db:
+        image: ${PROJECT}
+        hostname: db
+        volumes:
+            - "./src:/src"
+        deploy:
+            replicas: 3
+            resources:
+                limits:
+                    memory: 2.5G
+        environment:
+            - PROJECT=${PROJECT}
