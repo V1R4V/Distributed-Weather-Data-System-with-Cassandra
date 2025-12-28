@@ -7,14 +7,6 @@ venv/
 **/__pycache__/
 **/score.json
 **/result.json
-.vscode/
-.idea/
-.*env/
-venv/
-*venv/
-**/__pycache__/
-**/score.json
-**/result.json
 *.csv.gz
 .aider.*
 .gitlab-ci.yml
